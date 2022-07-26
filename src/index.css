@@ -1,0 +1,68 @@
+h1,h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.App {
+    height:  100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 1px 1px 20px #0005;
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 650px;
+    height: 200px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.boton {
+    border-radius: 70%;
+    box-shadow: 2px 2px 5px #000;
+    color: white;
+    font-size: 2rem;
+    border: 0;
+    text-align: right;
+    
+    
+    
+    
+}
+.boton:hover {
+    box-shadow: 0 0 5px #000;
+    transition: box-shadow 200ms ease;
+    border-radius: 70%;
+
+}
+.card_authors{
+    margin-top: 2px;
+    font-size: 0.7rem;
+}
+.card_quote{
+    
+    font-size: 1.2rem;
+}
+.buton{
+    text-align: right;
+    padding-right: 20px;
+    
+    
+}
+.autor{
+    text-align: right;
+    padding-right: 20px;
+    
+}
+.card i{
+   font-size: 3rem;  
+   padding-right: 5px; 
+}
